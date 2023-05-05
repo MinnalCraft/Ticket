@@ -17,7 +17,7 @@ module.exports = {
             if (prefix == null) prefix = require('../../config/bot').prefix;
             var ticketChannel = message.mentions.channels.first() || client.channels.cache.get(args[0]) || message.guild.channels.cache.find(c => c.name == args[0]) || message.channel;
             var adminRole = message.mentions.roles.first() || message.guild.roles.cache.find(r => r.id == args[1]) || message.guild.roles.cache.find(r => r.name == args[1]);
-            var title = message.content.split(' ').slice(3).join(' ') || '**CONTACT A MINNAL ADMIN**\n\n__**-DONT MAKE TICKETS WITH OUT ANY PURPOSE**__\n`CRAFTE FOR :- SUPPORT,HELP,CLAIM`';
+            var title = message.content.split(' ').slice(3).join(' ') || '**CONTACT A THARAVAD ADMIN**\n\n__**-DONT MAKE TICKETS WITH OUT ANY PURPOSE**__\n`CRAFTE FOR :- SUPPORT,HELP,CLAIM`';
             if (!adminRole) {
                 message.channel.send({
                     embed: {
