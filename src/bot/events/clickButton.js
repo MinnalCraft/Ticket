@@ -136,7 +136,7 @@ module.exports = async function(client, button) {
                         .addComponent(btn5)
                     channel.send(`<@${button.clicker.user.id}> <:hydroxdot:888039412632543263> <:hydroxarrow:888018627880714241> <@&${adminRole}> <:hydroxarrow_left:888351028787961866>`, {
                         embed: {
-                            description: `Please wait for an Admin to respond!!\n\n__**Please Tell Us What You Need Help On!**__\n\n**<:hydroxreply:887741912180727849>Ticket Category: Help**\n
+                            description: `Please wait for an Admin to respond!!\n\n__**Please Describe Your Problem!**__\n\n**<:hydroxreply:887741912180727849>Ticket Category: Help**\n
                     Press **🔒** to close this ticket`,
                             color: 0x2F3136
                         },
