@@ -29,16 +29,16 @@ run: async (bot, message, args) => { //async
                 .setColor(`#0x2F3136`)
 
                 const embed3 = new Discord.MessageEmbed()
-                .setTitle(`ABOUT MINNAL CRAFT`)
+                .setTitle(`ABOUT THARAVAD`)
                 .setThumbnail(message.guild.iconURL({ dynamic: true }))
-                .setDescription(`**MINNAL CRAFT IS A MINECRAFT SERVER WITH 200+ MEMBERS**`)
+                .setDescription(`**WE THARAVAD PROVIDE OUR FRIENDS A CRACKED SERVER**`)
                 .setColor(`#0x2F3136`)
 
                 // Last embed
                 const embed4 = new Discord.MessageEmbed()
                 .setTitle(`About Me`)
                 .setThumbnail(message.guild.iconURL({ dynamic: true }))
-                .setDescription(`**I was Made by, \`𝓢𝓜𝓞𝓞𝓣𝓗#1789\`!\n\nJoin my support [server](https://discord.gg/DAkSpgH4rn)**`)
+                .setDescription(`**I was Made by, \`TEAM MINNAL\`!\n\nJoin my support [server](https://discord.gg/ZmrzUp2SqC)**`)
                 .setColor(`#0x2F3136`)
 
                 //-----------------------------OPTIONS----------------------
