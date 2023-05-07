@@ -105,4 +105,4 @@ client.on('guildDelete', guild => {
 });
 
 client.login(require("./config/bot").token).catch(err => console.log(chalk.red.bold(err)))
-require("http").createServer((_, res) => res.end("HI THERE AM MINNAL TICKETS")).listen(8080)
+require("http").createServer((_, res) => res.end("HI THERE AM TVD SUPPORT")).listen(8080)
