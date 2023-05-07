@@ -19,7 +19,7 @@ run: async (bot, message, args) => { //async
                 const embed = new Discord.MessageEmbed()
                 .setTitle(`From Minnal Craft`)
                 .setThumbnail(message.guild.iconURL({ dynamic: true }))
-                .setDescription(`_**Click On the Select Menu Below to __Swap__ help Pages**_\n🏠 - Home Page\n🎟️ - Commands ( tickets )\n🏠 - About MINNALCRAFT\n📔 - About Me`)
+                .setDescription(`_**Click On the Select Menu Below to __Swap__ help Pages**_\n🏠 - Home Page\n🎟️ - Commands ( tickets )\n🏠 - About TVD\n📔 - About Me`)
                 .setColor(`#0x2F3136`)
 
                 const embed2 = new Discord.MessageEmbed()
