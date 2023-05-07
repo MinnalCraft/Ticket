@@ -1,6 +1,6 @@
 require('dotenv').config();
 
 module.exports = {
-    token: process.env.TOKEN,
-    prefix: process.env.PREFIX
+    token: "MTEwNDcwMTQxNDkwMDUxODk0Mg.GG2ori.bbPnMe7JJ1M9r655wCPe-vceq2226DZdgZSZb4",
+    prefix: "t!"
 }
