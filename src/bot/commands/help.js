@@ -114,7 +114,7 @@ run: async (bot, message, args) => { //async
         .setColor("RED")
         .setThumbnail(message.guild.iconURL({ dynamic: true }))
         .setDescription("This help menu is expired! Please retype the \`Help Command\`")
-        .setFooter("MINNAL CRAFT"))
+        .setFooter("THARAVAD NETWORK"))
     })
 
     }
